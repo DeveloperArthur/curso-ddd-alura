@@ -10,5 +10,5 @@
 * **Repositories**: infraestrutura/aluno/RepositorioDeAluno*.java
 * **Layered Architecture**: conceito de arquitetura em camadas. A ideia é manter o conhecimento do domínio focado e não espalhado por diferentes componentes da aplicação, como Ui, banco de dados, camada de persistência etc.
   ![img](layered_architecture.png)
-* **Bounded Contexts**: modulazirar e separar contextos, na aplicação existe o pacote academico que tem tudo relacionado a matricula, indicacao e etc, e o pacote gamificacao contendo tudo de gamificacao
+* **Bounded Contexts**: modulazirar e separar contextos, na aplicação existe o pacote academico que tem tudo relacionado a matricula, indicacao e etc, e o pacote gamificacao contendo tudo de gamificacao, exemplo no [repositorio](https://github.com/DeveloperArthur/monolito-modular)
   ![img](bounded_context.png)
