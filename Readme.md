@@ -3,6 +3,7 @@
 * **Ubiquitous Language**: dominio/indicacao/Indicacao.java
 * **Entities**: dominio/aluno/Aluno.java
 * **Value Objects**: dominio/aluno/CPF.java
+* **Specification Pattern**: src/main/java/br/com/alura/escola/specificationPatternExample/
 * **Aggregates**: dominio/aluno/Aluno.java
 * **Domain Events**: aplicacao/aluno/MatricularAluno.java, DomainEvent.java,
 * **Factories**: dominio/aluno/FabricaDeAluno.java
