@@ -51,4 +51,20 @@ public class Aluno {
     public String getEmail() {
         return email.getEndereco();
     }
+
+    //Aluno é um dominio rico, portanto tem comportamentos ricos
+    // não é um domínio anêmico
+
+    // como saber se determinada regra deve ficar dentro do 
+    // domínio ou na classe de serviço/regra de negócio?
+
+    //"de maneira geral as regras que são mais fechadas no domínio de 
+    // negócios devem ser implementadas na camada de Entidades; as regras 
+    // das quais não temos certeza se serão fechadas, e que podem mudar de 
+    // aplicação para aplicação, podemos implementar na camada de Casos de Uso"
+    //Otavio lemos em Arquitetura Limpa na Prática 
+    
+    public void boolean estaMatriculadoNoCurso(){
+        //lógica para saber se aluno está matriculado no curso
+    }
 }
