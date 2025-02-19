@@ -13,3 +13,5 @@
   ![img](layered_architecture.png)
 * **Bounded Contexts**: modulazirar e separar contextos, na aplicação existe o pacote academico que tem tudo relacionado a matricula, indicacao e etc, e o pacote gamificacao contendo tudo de gamificacao, exemplo no [repositorio](https://github.com/DeveloperArthur/monolito-modular)
   ![img](bounded_context.png)
+* Anti-Corruption Layer: Implementar camada de [facade](https://github.com/DeveloperArthur/praticas-para-bom-design-de-software./tree/main/src/main/java/br/com/arthur/principles/designpatterns/facade) ou [adapter](https://github.com/DeveloperArthur/praticas-para-bom-design-de-software./tree/main/src/main/java/br/com/arthur/principles/designpatterns/adapter) entre diferentes sitemas que não compartilham a mesma semântica
+  ![img](anti-corruption-layer)
